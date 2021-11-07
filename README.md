@@ -28,3 +28,13 @@ SELECT c.nome as "Os 9 Maiores Compradores" FROM clientes c INNER JOIN vendas v 
 1. Modelo Logico "(Tipado)".
 
 1. Modelo Fisico "(Script)".
+
+---
+
+### :ballot_box_with_check: Caso tenha interesse em contribuir, encontre algum erro :warning: ou sugestões :mailbox_with_no_mail:.
+| Opção | :link: |
+|-|-|
+|Abrir Issue |[Issue](https://github.com/BLRocha/sqlpostgres/issues)|
+|Pull Request|[PR](https://github.com/BLRocha/sqlpostgres/pulls)|
+
+---
