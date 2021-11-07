@@ -1,6 +1,16 @@
 <h1 align="center">Modelagem de Dados SQL</h1>
 
 ---
+## Sobre o REPO
+
+> Repositório criado após sentir dificuldade em lembrar comandos básicos para projeção de dados de duas tabelas, que deveria trazer uma quantidade **`x`** de dados em ordem a depender de um quantitativo de vendas, ordenar em > para <. 
+>> Exemplo: Dado as tabelas `CLIENTES(id, nome)` e  Tabela `COMPRAS(id_cliente, valor)` faça uma query que traga os 9 maiores compradores.
+
+
+```sql
+SELECT c.nome as "Os 9 Maiores Compradores" FROM clientes c INNER JOIN vendas v on v.id_cliente = c.id ORDER BY v.valor DESC LIMIT 9
+```
+
 
 ### 1 Forma Normal.
 
