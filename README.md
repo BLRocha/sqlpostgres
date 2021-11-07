@@ -23,8 +23,8 @@ SELECT c.nome as "Os 9 Maiores Compradores" FROM clientes c INNER JOIN vendas v 
 
 ### 2 Etapas de Modelagem.
 
-1. Modelo Conceital.
+1. Modelo Conceitual.
 
-1. Modelo Logigo "(Tipado)".
+1. Modelo Logico "(Tipado)".
 
 1. Modelo Fisico "(Script)".
